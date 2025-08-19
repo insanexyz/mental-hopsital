@@ -25,9 +25,12 @@ public class WeirdWayToPrintTriangleStarPattern {
     // *
     static void star02(int n) {
         if (n > 0) {
+            // Print stars upto n
             for (int i = 0; i < n; i++)
                 System.out.print("* ");
             System.out.println();
+
+            // Decrease n by 1 and rerun the function
             star02(n - 1);
         }
     }

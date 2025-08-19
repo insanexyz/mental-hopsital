@@ -1,0 +1,2 @@
+# Why insane?
+Why not :]

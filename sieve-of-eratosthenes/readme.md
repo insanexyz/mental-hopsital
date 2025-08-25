@@ -22,3 +22,5 @@ T(inner loop) >> T (outer loop)
 T = O(N log log N) or O(N * log(log(N))
 
 
+# Space complexity
+S = O(N) - For creating array/ vector of N size.

@@ -29,8 +29,8 @@ But this loop is inexpensive since it only does anything when condition to run i
 3. for i = 5 it runs roughly N/5 times
 4. for i = x it runs roughly N/x times (where x <= N)
 
-Therefore T = N/2 + N/3 + N/5 + ....  over primes <= N <br>
-            = N ( 1/2 + 1/3 + 1/5 + ...... ) over primes <= N <br>
+Therefore T = N/2 + N/3 + N/5 + ....  (over primes <= N)
+            = N ( 1/2 + 1/3 + 1/5 + ...... (over primes <= N) )
             ~= N * log(log((N))
             ~= O(N * log(log(N)) 
 ```

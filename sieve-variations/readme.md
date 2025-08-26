@@ -28,10 +28,10 @@ T = log(n)
 
 
 ## divisors.cpp
-Modifying the sieve algorithm code to find divisors of numbers 1, 2, 3, .... N
+Modifying the sieve algorithm code to find divisors of numbers 1, 2, 3, .... N.
 
 ### Time complexity
-```
+```cpp
 for (int i = 1; i < N; i++) {
     for (int j = i; j < N; j += i) {
         divisors[j].push_back(i);

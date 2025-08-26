@@ -21,9 +21,10 @@ Observations
 2. Leaders array/ vector can also be sorted and then displayed.
 3. For optimal solution we scan the array from right to left.
 
-## Time complexity
 
-### brute-force.cpp
+## brute-force.cpp
+
+### Time complexity
 ```cpp
 for (int i = 0; i < n; i++) {
     bool is_leader = true;
@@ -43,7 +44,13 @@ for (int i = 0; i < n; i++) {
 Therefore:
 ``T = O(n^2)``
 
-### optimal-way.cpp
+### Space complexity
+``S = O(n)``
+
+
+## optimal-way.cpp
+
+### Time complexity
 ```cpp
 for (int i = n - 1; i >= 0; i--) {
     if (arr[i] > max) {
@@ -54,3 +61,6 @@ for (int i = n - 1; i >= 0; i--) {
 ```
 Loop simply runs n time.
 ``T = O(n)``
+
+### Space complexity
+``S = O(n)``

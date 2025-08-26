@@ -19,5 +19,4 @@ public class OptimalWay {
         int[] arr = {5, 14, 5, 9, 6, 9, 4, 2, 3};
         findLeaders(arr);
     }
-
 }

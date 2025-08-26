@@ -1,3 +1,19 @@
+# What is Sieve of Eratosthenes algorithm
+It is used to find all the prime numbers for some given number N, from 0 to N.
+
+A non prime is a number which can only be divided by 1 and itself.
+
+Example: N = 12
+Result = 2, 3, 5, 7, 9, 11
+
+**Note**: 0 and 1 are non primes so we always start from 2.
+
+<br>
+
+---
+
+<br>
+
 # Time complexity
 
 ### Outer loop

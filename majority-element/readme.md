@@ -10,11 +10,13 @@ arr[] = {1, 2, 2, 3, 2, 3, 2, 4, 4, 2, 2, 2};
 N = 12
 N/2 = 6
 
-Element Counts
-1       1
-2       7
-3       2
-4       2
+Element | Counts
+----------------
+   1    |   1
+   2    |   7
+   3    |   2
+   4    |   2
+
 
 Therefore here ``2`` is a majority element. 
 

@@ -32,3 +32,9 @@ body {
 .item:nth-of-type(2n) {
     background-color: #a3a3a3;
 }
+
+@media (max-width: 767px) {
+    .container {
+        height: 100%;
+    }
+}

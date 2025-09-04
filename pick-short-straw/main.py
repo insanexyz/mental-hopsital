@@ -1,3 +1,5 @@
+# Joke code 😄
+
 import random
 
 straw = []
@@ -10,6 +12,8 @@ for i in range(num):
 
 # pick straw
 d = {}
+
+# I no use functions, cope
 
 for i in range(num):
     username = input("Enter your username: ")
@@ -32,5 +36,5 @@ for i in range(num):
 
 # display
 print(d)
-    
+
 

@@ -1,4 +1,4 @@
-# Roman to Numeral
+# Roman to Integer
 
 In short if larger value comes before smaller ones we simply go on adding.
 

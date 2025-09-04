@@ -48,7 +48,6 @@ std::vector<std::string> spin_the_thing(std::string name) {
 
 void display_the_shit(std::vector<std::string> v, int bet) {
 
-
     std::cout << std::endl << std::endl;
 
     // Display the result

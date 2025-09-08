@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+body {
+    background-color: #60a9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 960px;
+    padding: 15px 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    text-transform: uppercase;
+}
+
+.container .card {
+    padding: 25px 50px;
+    border-right: 1px solid #e1f1ff;
+    /* border: 1px solid black; */
+}
+
+.container .card:last-child {
+    border-right: 1px solid white;
+}
+
+.card h2 {
+    font-weight: 800;
+    color: #888;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.card img {
+    max-width: 100%;
+    margin-bottom: 25px;
+
+}
+
+.card ul {
+    list-style: none;
+    margin: 50px 0 25px;
+}
+
+.card ul li {
+    padding: 10px;
+    border-top: 1px solid #e1f1ff;
+    letter-spacing: 1px;
+    color: #016ff9;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 15px 0;
+    line-height: 1.5;
+}
+
+.card ul li:last-child {
+    border-bottom: 1px solid #e1f1ff;
+}
+
+.card .pricing-feature {
+    color: #016ff9;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.card .pricing-btn {
+    border: 1px solid #9dd1ff;
+    color: #348efe;
+    padding: 15px 35px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 25px 0;
+    transition: background-color 200ms ease-in;
+}
+
+.card .pricing-btn:hover, .pricing-btn:focus {
+    background-color: #e1f1ff;
+}
+
+.card .pricing-btn.is-featured {
+    background-color: #348efe;
+    color: white;
+}
+
+.card .pricing-btn.is-featured:hover, .pricing-btn.is-featured:focus {
+    background-color: #269aff;
+    color: white;
+}
+
+@media (max-width: 960px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .card {
+        padding: 25px 35px;
+        border-bottom: 1px solid #e1f1ff;
+        border-right: none;
+    }
+
+    .container .card:last-child {
+        border-bottom: none;
+    }
+}
+
+
+
+

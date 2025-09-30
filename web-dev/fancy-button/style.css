@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto";
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3E1E68;
+}
+
+button {
+    background: none;
+    border: 2px solid #FFACAC;
+    color: #FFACAC;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: border 220ms, color 220ms, box-shadow 220ms, transform 220ms;
+}
+
+button:hover {
+    border: 2px solid #E45A92;
+    color: pink;
+    box-shadow: 0px 0.5em 0.5em -0.4em #E45A92;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}

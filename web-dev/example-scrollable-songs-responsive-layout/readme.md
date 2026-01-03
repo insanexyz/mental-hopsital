@@ -1,3 +1,3 @@
 # Example layout
 
-![](/images/example-layout.png)
+![](./images/example-layout.png)
